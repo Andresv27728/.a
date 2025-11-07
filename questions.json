@@ -1,0 +1,17 @@
+[
+    { "question": "I ___ to the store yesterday.", "options": ["have gone", "went", "has gone", "go"], "correct": "B" },
+    { "question": "She ___ been to Paris three times.", "options": ["has", "had", "have", "is"], "correct": "A" },
+    { "question": "They ___ the movie last night.", "options": ["watched", "have watched", "watch", "watching"], "correct": "A" },
+    { "question": "I ___ never seen snow.", "options": ["have", "had", "has", "saw"], "correct": "A" },
+    { "question": "He ___ his homework yesterday.", "options": ["did", "has done", "does", "doing"], "correct": "A" },
+    { "question": "We ___ lived here for 5 years.", "options": ["have", "lived", "has", "live"], "correct": "A" },
+    { "question": "She ___ to school this morning.", "options": ["went", "has gone", "goes", "going"], "correct": "A" },
+    { "question": "I ___ just finished my book.", "options": ["have", "had", "has", "finished"], "correct": "A" },
+    { "question": "They ___ the train at 8 PM.", "options": ["caught", "have caught", "catch", "catching"], "correct": "A" },
+    { "question": "Have you ___ your keys?", "options": ["lost", "lose", "losing", "lost"], "correct": "A" },
+    { "question": "She ___ born in 1990.", "options": ["was", "has been", "is", "were"], "correct": "A" },
+    { "question": "I ___ been waiting for an hour.", "options": ["have", "had", "has", "waited"], "correct": "A" },
+    { "question": "He ___ his car last week.", "options": ["sold", "has sold", "sells", "selling"], "correct": "A" },
+    { "question": "We ___ not seen him since Monday.", "options": ["have", "had", "has", "saw"], "correct": "A" },
+    { "question": "Did you ___ the news?", "options": ["hear", "heard", "have heard", "hearing"], "correct": "B" }
+]
