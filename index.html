@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Present Perfect vs Past Simple Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Present Perfect vs Past Simple Quiz</h1>
+        <div id="username-section">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" placeholder="Your name">
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div id="game-section" style="display: none;">
+            <div class="roulette">
+                <canvas id="roulette-canvas" width="300" height="300"></canvas>
+                <button id="spin-btn">Spin the Roulette!</button>
+            </div>
+            <div id="question-section" style="display: none;">
+                <h2 id="question"></h2>
+                <div class="options">
+                    <button class="option-btn" data-option="A"></button>
+                    <button class="option-btn" data-option="B"></button>
+                    <button class="option-btn" data-option="C"></button>
+                    <button class="option-btn" data-option="D"></button>
+                </div>
+                <p id="feedback"></p>
+                <p>Score: <span id="score">0</span></p>
+            </div>
+        </div>
+        <div id="leaderboard-section">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboard"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
